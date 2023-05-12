@@ -65,7 +65,7 @@ jobs:
       with:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
-        registry: docker.pkg.github.com
+        registry: https://ghcr.io
         repository: aaronk1998/devops-p8/tic-tac-toe
         tag_with_sha: true
 
