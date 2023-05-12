@@ -67,6 +67,6 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pgk.github.com
-        repository: aaronk1998/devops-p8/tic-tac-toe
+        repository: aaronk1998/devops-p8/tic-tac-toe-2
         tag_with_sha: true
         
